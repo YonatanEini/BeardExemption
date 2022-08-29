@@ -1,0 +1,30 @@
+.signatureCanvas {
+    border: 1px solid black;
+    width: 20rem;
+    height: 10rem;
+  }
+.signature-wrapper{
+    margin-left: 18%;
+    background-color: blanchedalmond;
+    width: 40rem;
+    height: 20rem;
+    border: 2px black solid;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9;
+    animation-name: fromTop;
+    animation-duration: 0.5s;
+    margin-top: 2%;
+}
+.buttons-wrapper-pad{
+    margin-top: 0rem;
+}
+.buttons-wrapper-pad button{
+    margin-right: 5px;
+}
+@keyframes fromTop {
+    from {margin-top: -10%;}
+    to {margin-top: 2%;}
+  }
+  

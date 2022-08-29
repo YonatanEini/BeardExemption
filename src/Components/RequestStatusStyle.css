@@ -1,0 +1,68 @@
+#cover-img{
+        object-fit : fill;
+}
+#signatures-wrapper img{
+    width: 15rem;
+    padding: 15px;
+    margin-right: 5rem;
+    border: 2px solid black;
+    min-height: 8rem;
+}
+
+.overlay-gaf {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 15rem;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .overlay-rasar {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 15rem;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 20rem;
+  }
+
+  .overlay-unit {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 15rem;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 40rem;
+  }
+  
+  .img-container-gaf:hover .overlay-gaf {
+    opacity: 1;
+  }
+  .img-container-rasar:hover .overlay-rasar {
+    opacity: 1;
+  }
+  .img-container-unit:hover .overlay-unit{
+    opacity: 1;
+  }
+
